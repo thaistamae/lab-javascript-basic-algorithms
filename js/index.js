@@ -91,3 +91,17 @@ if (hacker1 === hacker2){
     }
   }
 } 
+
+
+let paragraphs = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus lacus nec lacinia imperdiet. Duis eget ornare nisl. Proin vestibulum tortor ut justo cursus, sit amet porta eros sollicitudin. Nam tincidunt nisi pulvinar egestas commodo. Fusce et ipsum nisi. Ut rutrum ornare congue. Nam fermentum est eu egestas vehicula. Integer et ligula sed felis iaculis placerat. Vivamus nec ante nunc. Maecenas cursus quam sed purus ullamcorper, nec ornare enim porttitor. Aenean eu sagittis tortor. Cras vitae lacus euismod, rhoncus nibh quis, fringilla libero. Donec et leo quis augue fringilla viverra. Sed porta imperdiet leo pretium sagittis. In vel posuere leo. Ut id eros ligula. Sed sollicitudin vel augue nec dictum. Nullam non bibendum magna, sed pulvinar odio. Curabitur in pharetra lacus, vitae varius nunc. Praesent mi risus, ultrices vitae lacus eu, dictum ullamcorper risus. Morbi at scelerisque orci. Nam ultricies et dui et finibus. Vivamus sed massa ac elit vestibulum consequat. Nulla bibendum nibh quam, ut vehicula odio malesuada id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sodales porttitor nisi, nec suscipit libero congue at. Aenean eu velit tincidunt, egestas nibh consectetur, tempor dui. Fusce egestas lacus eget vehicula placerat. Quisque erat mi, dictum sit amet ante ut, lacinia tincidunt risus. Suspendisse potenti. Suspendisse vel pulvinar magna, vestibulum sagittis ex. Mauris quis lorem vel sapien commodo suscipit non ac velit. Sed turpis leo, gravida eget porttitor ac, aliquam at quam. Morbi quis aliquam orci, sit amet tincidunt nisl."
+
+let counter = 1
+
+for(let i = 0; i < paragraphs.length; i++){
+  const caract = paragraphs[i];
+  if(paragraphs[i] === " "){
+    counter++;
+  }
+}
+
+console.log(counter);
